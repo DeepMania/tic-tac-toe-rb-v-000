@@ -77,7 +77,7 @@ describe './lib/tic_tac_toe.rb' do
       expect(self).to_not receive(:turn)
 
       play(board)
-    end
+  
     end
 
     it 'congratulates the winner X' do
